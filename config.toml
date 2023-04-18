@@ -1,4 +1,4 @@
 baseURL = 'http://noizy.cloud/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
+title = 'Microsoft Security & Incident Response'
 theme = 'congo'
