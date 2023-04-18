@@ -6,6 +6,7 @@ summary: "Use this template to setup a new blog instance for every topic you lik
 tags: ["new blog", "hugo", "congo"]
 coverImage: "assets/img/cyber_01.jpg"
 author: "johnny-3-echo"
+draft: true
 ---
 
 ## Start with a level 2 header and continue to write from there 
