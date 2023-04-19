@@ -1,8 +1,9 @@
 baseURL = 'http://noizy.cloud/'
-languageCode = 'en'
+
 title = 'Microsoft Security & Incident Response'
 theme = 'congo'
 
+languageCode = 'en'
 defaultContentLanguage = "en"
 
 enableRobotsTXT = true
