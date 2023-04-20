@@ -1,5 +1,5 @@
 ---
-title: "Set up internet connectivity for Hyper-V VMs with NAT"
+title: "Using NAT for internet connection on Hyper-V host" 
 date: "2022-09-27"
 tags: 
   - "hyper-v"
@@ -8,16 +8,6 @@ tags:
 While I've been setting up a lab environment on a Hyper-V host, I was told I cannot use virtual external switches for my VMs. The alternative has to be NAT. So, let's see how this is done.
 
 <!--more-->
-## Table of content 
-
-
-## Content
-
-- [Introduction](#Introduction)
-- [How things should end up](#How-things-should-end-up)
-- [Setting up NAT for Hyper-V](#Setting-up-NAT-for-Hyper-V)
-- [Conclusion](#Conclusion)
-- [References](#References)
 
 ## Introduction
 
