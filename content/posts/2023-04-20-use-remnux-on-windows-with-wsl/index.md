@@ -1,5 +1,5 @@
 ---
-title: "2023 04 20 Use Remnux on Windows With Wsl"
+title: "Use Remnux on Windows With Wsl"
 date: 2023-04-19
 draft: false
 tags: 
