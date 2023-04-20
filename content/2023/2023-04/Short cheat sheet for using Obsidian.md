@@ -1,7 +1,7 @@
 ---
 title: 'Short cheat sheet for using Obsidian'
 date: 2023-04-20
-image: ''
+image: 'logo.png'
 draft: false
 tags: 
 - Obsidian

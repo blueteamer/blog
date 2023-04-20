@@ -8,7 +8,7 @@ defaultContentLanguage = "en"
 
 enableRobotsTXT = true
 paginate = 15
-summaryLength = 50
+summaryLength = 30
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
