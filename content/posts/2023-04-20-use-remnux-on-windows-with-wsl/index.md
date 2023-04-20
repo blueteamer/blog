@@ -1,6 +1,6 @@
 ---
 title: "2023 04 20 Use Remnux on Windows With Wsl"
-date: 2023-04-20T14:45:00
+date: 2023-04-19
 draft: false
 tags: 
 - REMnux
