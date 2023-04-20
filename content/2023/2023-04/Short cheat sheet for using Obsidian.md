@@ -1,14 +1,15 @@
 ---
-title: "My cheat sheet for using Obsidian"
-description: "An overview of shortcuts which I use most of the time. This is more of an heads up for me. Sparse me some time googling the same stuff over and over again."
+title: 'Short cheat sheet for using Obsidian'
 date: 2023-04-20
-image: ""
+image: ''
+draft: false
 tags: 
 - Obsidian
 - Note to myself
+
 --- 
 
-## Overview of my most used tasks in Obsidian
+This post gives an overview of shortcuts which I use most of the time. Anyways, this is more of an heads up for me to spare me some time instead of searching the same stuff over and over again. 
 
 ### Open Quick Switcher 
 ```
