@@ -10,6 +10,8 @@ tags:
 
 In this post I gathered the most common Markdown formattings - at least these are the most common for me. 
 
+<!--more-->
+
 ### Formatting 
 
 ```
