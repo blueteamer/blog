@@ -1,49 +1,61 @@
 ---
-title: "[Fix for Kali Linux] xRDP - Authentication is required to create a color managed device"
+title: "xRDP - Authentication is required to create a color managed device"
 date: "2021-03-31"
 tags: 
-  - "kali"
+  - Kali Linux
+  - Linux 
+  - Troubleshooting
 ---
 
-Many Debian based Linux are using PolKit to enforce specific policies within linux. Some of these policies are extra rigid in terms of using RDP. Therefore, while using RDP you will get numerous popups asking for credentials. And this makes working remotely really annoying.
+Many Debian based linux distro are using PolKit to enfore specific policies. Especially while working within a RDP session, this can become a major pain in the ass because of re-occurring pop-ups asking for credentials. This makes it almost impossible to do any work. 
+
+<!--more-->
+
+
 
 ![](images/article.configurerdpaccessforkalilinux.authenticatepopup.png)
 
-I found a pretty good article[^fn1] which describes the root cause and a way to resolve this issue. In my post I'm going to condense the solution part for later reference.
+There is a good article[^fn1] which describes the issue in a more detailed fashion and how to resolve the issue. This post will be a brief summary for later reference. 
 
-So let's have a look.
+## How can we solve the problem?
 
-## How to get rid of it?
+The solution to this issue is, that we have to tell PolKit how to behave if a user is working remotely via RDP. And this can be done with a specific file in the folder 
+```
+/etc/polkit-1/localauthority/50-local.d/
+```
+Let's have a look, step by step. 
 
-The solution to that issue is, that we have to tell PolKit how to behave if a user is working remotely via RDP. And this can be done with a specific file in the folder /etc/polkit-1/localauthority/50-local.d/ .
+### Become root on the terminal as some resources require that special permissions.
 
-Here are the steps:
-
-### 1\. Become root on the terminal as some resources require that special permissions.
-
-```bash
-(john@kali) $ sudo -i
-[sudo] password for john:
-
-(root@kali) #
+```
+sudo -i
 ```
 
-### 2\. Check which version of pkaction (PolKit) is running.
+### Check which version of pkaction (PolKit) is running.
+In the next step, we have to check the version of pkaction. This will tell us in which direction we need to go. 
 
-```bash
-(root@kali) # pkaction --version 
+flowchart TD
+  A[pkaction --version] 
+  A --> |v0.106 and above?| C[*.conf]
+  A --> |v0.105 and below?| D[*.pkla]
+
+
+You can check the version in the terminal
+```
+pkaction --version 
+```
+
+The output looks something like this: 
+```
 pkaction version 0.105 
 ```
 
-If the version number is 0.106 or higher (=>0.106) => create a \*.conf file.  
-If the version number is smaller than 0.106 (<0.106) => create a \*.pkla file.
+### Case A: (pkaction --version >= 0.106)
 
-### 3a. Create a \*.conf file (pkaction --version >= 0.106)
-
-```bash
-(root@kali) # cd /etc/polkit-1/localauthority.d.conf
-(root@kali) # touch 02-allow-color.d.conf
-(root@kali) # nano 02-allow-color.d.conf
+```
+cd /etc/polkit-1/localauthority.d.conf
+touch 02-allow-color.d.conf
+nano 02-allow-color.d.conf
 ```
 
 Add the following content to this file and save it.
@@ -62,12 +74,12 @@ polkit.addRule(function(action, subject) {
  });
 ```
 
-### 3b. Create a \*.pkla file (pkaction --version < 0.106)
+### Case B: (pkaction --version < 0.106)
 
-```bash
-(root@kali) # cd /etc/polkit-1/localauthority/50-local.d/
-(root@kali) # touch 45-allow-colord.pkla
-(root@kali) # nano 45-allow-colord.pkla
+```
+cd /etc/polkit-1/localauthority/50-local.d/
+touch 45-allow-colord.pkla
+nano 45-allow-colord.pkla
 ```
 
 Add the following content to the file and save it.
@@ -84,7 +96,7 @@ ResultActive=yes
 
 Now try to login via RDP to your machine. No popup should be visible and asking for any kind of credentials.
 
-I highly recommend to read the original article [\[1\]](#references) as you will find very useful infos to understand the mechanism behind this behaviour and the proposed solutions.
+I highly recommend to read the original article[^fn1] as you will find very useful infos to understand the mechanism behind this behaviour and the proposed solutions.
 
 
 
