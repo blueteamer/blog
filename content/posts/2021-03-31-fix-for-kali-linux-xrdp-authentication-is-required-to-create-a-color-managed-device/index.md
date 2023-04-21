@@ -34,11 +34,12 @@ sudo -i
 ### Check which version of pkaction (PolKit) is running.
 In the next step, we have to check the version of pkaction. This will tell us in which direction we need to go. 
 
+{{< mermaid >}}
 flowchart TD
   A[pkaction --version] 
   A --> |v0.106 and above?| C[*.conf]
   A --> |v0.105 and below?| D[*.pkla]
-
+{{< /mermaid >}}
 
 You can check the version in the terminal
 ```
