@@ -3,6 +3,7 @@ title: "Configure RDP access for Kali Linux"
 date: "2021-03-29"
 tags: 
   - Kali Linux
+  - Linux
 ---
 
 
