@@ -5,52 +5,60 @@ tags:
   - Kali Linux
 ---
 
-When setting up Kali Linux in my lab as VM I realized that connecting to it via RDP is not that easy. Here's how to make Kali Linux cooperate and enable RDP sessions for your conveniece. 
+
+Kali Linux does not come with RDP enabled out of the box. But Kali can be configured to provide RDP access from any device with a proper RDP client. 
 
 <!--more-->
 
-So, I set up a Kali linux in my lab environment for testing and evaluation purposes. The whole test lab is running on an isolated hypervisor solution.
+## Some context for my specific case 
+I set up Kali Linux for my lab environment on a hypervisor solution. As I am not working in front of that hypervisor, it would be nice to RDP into Kali from my laptop. 
 
-And therefore it would be nice to have the possibility to log into Kali via RDP.  
-Let's see how to do this.
+## Configure RDP for Kali Linux 
+I installed a new instance of Kali Linux 2021.2 and configured the VM to have working network connectivity with my laptop. We are using **xrdp** to sign in to the Linux VM. 
 
-In my case I have a brand new installation of Kali Linux 2021.2 on my Hyper-V. I'm going to use xrdp to have me log into the machine.  
-So let's install that first
+### Install xrdp on the Linux device 
+Open a terminal on your Linux device and install xrdp via **apt-get**. 
 
-```bash
-$ sudo apt-get update 
-$ sudo apt-get install xrdp 
+```
+sudo apt-get update 
+sudo apt-get install xrdp
 ```
 
-Next we want to start the service
-
-```bash
-$ systemctl start xrdp 
-$ systemctl start xrdp-sesman 
+After the successful installation, we need to start xrdp as a service. 
+```
+sudo systemctl start xrdp
+sudo systemctl start xrdp-sesman
 ```
 
-Let's see if it's working and try log into the machine with an RDP client on Windows.  
-In my network the machine is accessible via its hostname kali or the IP 10.0.0.100 .
+### Test connection from your client 
+xrdp is installed correctly and running. Let's see if we can connect and sign in. 
 
-```powershell
+On your working device (in my case, a Windows device), open a terminal and connect via 
+```
 mstsc /v kali
-#or 
-mstsc /v 10.0.0.100 
 ```
+
+or 
+
+```
+mstsc /v 10.0.0.100
+```
+
+where ***kali*** or ***10.0.0.100*** is either the Linux VMs hostname or IP. 
+In case the connection was successful, you will see something similar to the image below. 
+
 
 ![](images/article.configurerdpaccessforkalilinux.loginscreen.png)
 
-To have the RDP service started automatically after a reboot do this once
+### Make RDP persistent 
+After a reboot of the Linux device, you need to restart xrdp and xrdp-sesman (Session Manager) manually. Tell Linux to start xrdp automatically as a service to avoid this extra step after each reboot. 
 
-```bash
-$ systemctl enable xrdp 
-$ systemctl enable xrdp-sesman
+```
+sudo systemctl enable xrdp 
+sudo systemctl enable xrdp-sesman
 ```
 
-Now you can log into Kali Linux and do what ever you intended to do.  
-
-One last point. Make sure you are not logged in anywhere else - e.g. Hyper-V Manager. Otherwise this will prevent the RDP client to take over the session. Haven't found a way around this yet.
-
-If you have a solution for this at hand, let me know in the comments.
+### Final thoughts 
+Make sure you are not logged in anywhere else - e.g., Hyper-V Manager. Otherwise, this will prevent the RDP client from taking over the session. I haven't found a way around this yet.
 
 So long...
