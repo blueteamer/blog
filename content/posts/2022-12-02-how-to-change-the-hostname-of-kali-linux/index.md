@@ -3,7 +3,7 @@ title: "How to Change the Hostname of Kali Linux"
 date: 2022-12-02T00:00:00+01:00
 draft: false
 tags: 
-- Kali linux
+- Kali Linux
 - Linux 
 ---
 

@@ -1,7 +1,6 @@
 ---
 title: 'Short cheat sheet for using Obsidian'
 date: 2023-04-20
-image: 'logo.png'
 draft: false
 tags: 
 - Obsidian
@@ -9,7 +8,7 @@ tags:
 
 --- 
 
-This post gives an overview of shortcuts which I use most of the time. Anyways, this is more of an heads up for me to spare me some time instead of searching the same stuff over and over again. 
+This post provides an overview of shortcuts which I use most of the time. Anyways, this is more of an heads up for me to spare me some time instead of searching the same stuff over and over again. 
 
 ### Open Quick Switcher 
 ```
