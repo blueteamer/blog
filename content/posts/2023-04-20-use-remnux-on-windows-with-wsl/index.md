@@ -4,11 +4,10 @@ date: 2023-04-19
 draft: false
 tags: 
 - REMnux
-- Lab
 - Malware Analysis
 ---
 
-In case you frequently need to investigate suspicious files or you need more context about such files, you should take a look at REMnux[^fn1]. It is a linux distribution specifically used for malware analysis and digital forensics. 
+In case you frequently need to investigate suspicious files or you need more context about such files, you should take a look at REMnux[^fn1]. It is a linux distribution specifically designed for malware analysis and digital forensics. 
 
 We are going to have a look at how REMnux can be installed on a Windows 10 device. The goal is to extend the analysis capabilities of a Windows 10 detonation chamber. 
 
