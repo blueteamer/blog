@@ -4,6 +4,7 @@ date: "2021-03-29"
 tags: 
   - Kali Linux
   - Linux
+  - Note to myself
 ---
 
 
