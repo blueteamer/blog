@@ -19,7 +19,9 @@ Hyper-V provides three different types of virtual switches
 
 External switches are sometimes not allowed. This is because multiple (virtual) network interfaces (NIC) can share traffic over one physical NIC and therefore traffic will go out over one interface with probably more than on MAC. Maybe this is considered as MAC Spoofing? I don't know.
 
-Long story short: Had to use an alternative technique to provide internet access for my VMs. Network allocation table (NAT) it is.
+Long story short: Had to use an alternative technique to provide internet access for my VMs. Network allocation table (NAT) it is[^fn2].
+
+[^fn2]: "Setup NAT Network" [https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network)
 
 ## How things should end up
 
@@ -74,7 +76,9 @@ New-NetNat -Name 'DefaultVmGatewayOutside' -InternalIPInterfaceAddressPrefix 10.
 
 ### Step on virtual machine
 
-I'm not going to explain how to create a new virtual machine in Hyper-V. Pretty sure you already know that. If not, see [here](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/create-a-virtual-machine-in-hyper-v).
+I'm not going to explain how to create a new virtual machine in Hyper-V. Pretty sure you already know that. If not, check out the Microsoft Learn Article[^fn1].
+
+[^fn1]: "Create a virtual machine in Hyper-V" [https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/create-a-virtual-machine-in-hyper-v](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/create-a-virtual-machine-in-hyper-v)
 
 Anyways, move to the virtual machine VM1, open a command prompt and type **ncpa.cpl**. This opens the network adapter overview. Click right on the network adapter (there should be only one) and select properties. Choose IPv4 and edit the settings as you can see in the image below.
 
@@ -99,7 +103,4 @@ At the end my VM can talk to the internet and I don't need a 50 headcount devops
 Hope you learned something. I did.  
 So long...
 
-## References
 
-- [Set up a NAT network](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network) **[(Microsoft Learn](https://learn.microsoft.com/en-us/virtualization/hyper-v-on-windows/user-guide/setup-nat-network))**
-- [Create a virtual machine in Hyper-V](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/create-a-virtual-machine-in-hyper-v) **[(Microsoft Learn](https://learn.microsoft.com/en-us/windows-server/virtualization/hyper-v/get-started/create-a-virtual-machine-in-hyper-v))**
