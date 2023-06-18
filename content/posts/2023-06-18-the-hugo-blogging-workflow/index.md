@@ -1,5 +1,5 @@
 ---
-title: "2023 06 18 the Hugo Blogging Workflow"
+title: "My Hugo blogging workflow"
 date: 2023-06-18T06:40:57+02:00
 draft: false
 tags: 
