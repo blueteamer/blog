@@ -2,6 +2,9 @@
 title: "My Python Cheat Sheet"
 date: 2023-06-18T08:13:05+02:00
 draft: false
+tags: 
+- learning
+- python
 ---
 
 This is a brief overview and some notes of my Python learning progress. 
@@ -14,13 +17,14 @@ winget install anaconda.anaconda3
  
 
 ## Integrated Development Environments (IDEs) 
-PyChar Community Edition by Jetbrains 
-Visual Studio Code with Python Extension by Microsoft (also nice for later Jupyter Notebooks) 
+I recommend using one of these. Easy to setup and similar in use. 
+- PyChar Community Edition by Jetbrains 
+- Visual Studio Code with Python Extension by Microsoft (also nice for later Jupyter Notebooks) 
 
 ## Python 
 
 ### Variables and basic types 
-```
+```python
 name = input("What is your name? ")
 age = int(input("What is your age? "))
 height = float(input("How tall are your? (in cm) "))
@@ -36,7 +40,7 @@ print("Are these information correct?")
 
 
 ### Type casting 
-```
+```python
 a_number = 4
 a_floating_number = 3.14 
 a_string = "Wow. Awesome. Splendid." 
@@ -52,7 +56,7 @@ print("The sum of the floating numbers is " + str(sum_of_floating_numbers))
 
 
 ### For loop 
-```
+```python
 for i in range(0, 10):
     print("This for-loop will be executed for a definite amount of times. In this case the " + str(i) + ". time. ")
 
@@ -61,7 +65,7 @@ print("Program finished. ")
 
 
 ### While loop 
-```
+```python
 keep_running = True
 while keep_running:
     print("A while loop is an indefinite loop. It runs until a break condition will appear. ")
@@ -74,7 +78,7 @@ print("Program finished.")
 
 ### Conditions a.k.a. if-statements 
 Simple if-statement 
-```
+```python
 name = input("What is your name? ")
 age = int(input("What is your age? "))
 
@@ -87,7 +91,7 @@ print("Program finished. ")
 ```
 
 Complex if-statement
-```
+```python
 name = input("What is your name? ")
 age = int(input("How old are you? "))
 
@@ -105,7 +109,7 @@ print("Program finished. ")
 ```
 
 Invert boolean value with not() 
-```
+```python
 age = int(input("How old are you? "))
 
 if not(age < 18):
@@ -118,7 +122,7 @@ print("Program finished.")
 ### Array 
 A string is an array of characters. 
 
-```
+```python
 a_string = "Something is going on!"
 
 from_start_to_fourth = a_string[:4]
@@ -135,7 +139,7 @@ print("Revert the string: " + revert_the_string)
 ```
 
 ### List 
-```
+```python
 a_list = ["Something", "is", "going", "on", "here"]
 
 print("This is what it looks like to print a list: ")
@@ -149,7 +153,7 @@ print()
 ```
 
 Some useful functions 
-```
+```python
 print("get the element of a specific index")
 first_item = a_list[0]
 print(first_item)
@@ -200,7 +204,7 @@ print()
 ### Tuple 
 A tuple is a collection which is unordered and unchangeable. It is used to stack information which belongs together. 
 
-```
+```python
 employee = ("Hans Gruber", 38, "Assassin")
 
 print(employee)
@@ -219,7 +223,7 @@ if "Assassin" in employee:
 ### Set 
 A set is a collection which is unordered and unindexed. It will not hold duplicate values. A set is quite useful for comparing multiple values. 
 
-```
+```python
 cars_A = {"Audi", "BMW", "Mercedes", "VW", "Mercedes"}
 cars_B = {"Audi", "BMW", "Skoda", "Ford", "Ferrari", "Fiat", "Citroen", "Peugeot"}
 
@@ -246,7 +250,7 @@ cars_A.intersection(cars_B)
 ### Dictionary 
 Similar to other languages a Dictionary is a changeable, unordered collection of unique key/value pairs. Dicts are pretty fast in processing as they use hashing to access values. 
 
-```
+```python
 employees = {"00001": "Horst Bader",
              "00002": "Fran Morgan",
              "00022": "Greg Mann"}
@@ -279,7 +283,7 @@ employees.clear() # -> clear the dictionary
 
 
 ### Functions 
-```
+```python
 def print_welcome_statement(name, year, reason):
     print("Dear " + name + ", ")
     print("welcome to the " + reason + " which is taking place in " + str(year) + ". ")
@@ -292,7 +296,7 @@ print_goodby_statement("John Doe")
 ```
 
 In case you are not aware of the amount of arguments to process (*args): 
-```
+```python
 def sum_up_some_numbers(*args):
     result = 0
     for number in args:
@@ -305,7 +309,7 @@ print(r)
 ```
 
 This can even be done by providing a dictionary of arguments (keyword args or **kwargs): 
-```
+```python
 def concatenate_several_strings_in_one_line(**somewords):
     print("Good day! ", end="")
     for key, value in somewords.items():
@@ -323,12 +327,16 @@ For instance, create a file/module for helper functions.
 <image of a separate file>
 
 The structure looks like this: 
+```python
 root
 |-- main.py 
 |-- custom_helper.py 
+```
+
+
 
 Content of "custom_helper.py"
-```
+```python
 def print_welcome_statement(name, year, reason):
     print("Dear " + name + ", ")
     print("welcome to the " + reason + " which is taking place in " + str(year) + ". ")
@@ -338,7 +346,7 @@ def print_goodby_statement(name):
 ```
 
 Now we have different ways to include that code in our main script file: 
-```
+```python
 import custom_helper
 
 custom_helper.print_welcome_statement("John Doe", 2023, "Steven Seagull Lookalike Championship")
@@ -346,7 +354,7 @@ custom_helper.print_goodby_statement("John Doe")
 ```
 
 With an alias 
-```
+```python
 import custom_helper as helper
 
 helper.print_welcome_statement("John Doe", 2023, "Steven Seagull Lookalike Championship")
@@ -354,7 +362,7 @@ helper.print_goodby_statement("John Doe")
 ```
 
 Include selected functions or classes 
-```
+```python
 from custom_helper import print_welcome_statement, print_goodby_statement
 
 print_welcome_statement("John Doe", 2023, "Steven Seagull Lookalike Championship")
