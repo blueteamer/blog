@@ -7,7 +7,7 @@
 
 colorScheme = "ocean"
 # "congo", "avocado", "cherry", "fire", "ocean", "sapphire", "slate" 
-defaultAppearance = "dark" # valid options: light or dark
+defaultAppearance = "light" # valid options: light or dark
 autoSwitchAppearance = true
 
 enableSearch = true
