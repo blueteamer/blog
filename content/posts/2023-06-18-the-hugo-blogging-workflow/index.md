@@ -112,7 +112,7 @@ git checkout main (we need to switch to the target branch - in this case main)
 git merge new-blog-post-about-ants 
 
 # Delete the now obsolete branch 
-git branch - new-blog-post-about-ants 
+git branch -d new-blog-post-about-ants 
 ```
 
 This is a common procedure in git and perfect for the blogging-in-hugo experience. 
