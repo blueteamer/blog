@@ -23,6 +23,7 @@
 /assets/jsconfig.json
 hugo_stats.json
 /content/drafts/
+.vscode
 
 # Temporary lock file while building
 /.hugo_build.lock

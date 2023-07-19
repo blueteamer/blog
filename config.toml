@@ -1,7 +1,7 @@
 baseURL = 'http://noizy.cloud/'
 
 title = 'Microsoft Security & Incident Response'
-theme = 'hugo-clarity-master'
+theme = 'hugo-clarity'
 
 languageCode = 'en'
 defaultContentLanguage = "en"
