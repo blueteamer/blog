@@ -1,6 +1,6 @@
 [[main]]
   name = "Home"
-  url = ""
+  url = "https://noizy.cloud/"
   weight = -110
 
 [[main]]
@@ -20,8 +20,8 @@
 [[main]]
   parent = "Links"
   name = "Twitter"
-  url = "https://twitter.com/JohnnyThreeEcho"
-
+  url = "https://twitter.com/JohnnyThreeEcho/"
+  
 [[main]]
   name = "About"
   url = "about/"
