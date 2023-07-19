@@ -3,29 +3,29 @@
   url = "https://noizy.cloud/"
   weight = -110
 
-[[main]]
-  name = "Archives"
-  url = "archives/"
-  weight = -109
+# [[main]]
+#   name = "Archives"
+#   url = "archives/"
+#   weight = -109
 
 # Submenus are done this way: parent -> identifier
-[[main]]
-  name = "Links"
-  identifier = "Links"
-  weight = -108
-[[main]]
-  parent = "Links"
-  name = "LinkedIn"
-  url = "https://www.linkedin.com/"
-[[main]]
-  parent = "Links"
-  name = "Twitter"
-  url = "https://twitter.com/JohnnyThreeEcho/"
+# [[main]]
+#   name = "Links"
+#   identifier = "Links"
+#   weight = -108
+# [[main]]
+#   parent = "Links"
+#   name = "LinkedIn"
+#   url = "https://www.linkedin.com/"
+# [[main]]
+#   parent = "Links"
+#   name = "Twitter"
+#   url = "https://twitter.com/JohnnyThreeEcho/"
   
-[[main]]
-  name = "About"
-  url = "about/"
-  weight = -107
+# [[main]]
+#   name = "About"
+#   url = "about/"
+#   weight = -107
 
 # social menu links
 
