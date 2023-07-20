@@ -1,12 +1,17 @@
 ---
-title: 'Short cheat sheet for using Obsidian'
-date: 2023-04-20
-draft: false
-tags: 
-- Obsidian
-- Note to myself
+title: "Short cheat sheet for using Obsidian" 
+date: "2023-04-20"
+description: "Little helper for using Obsidian-" 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["note taking"]
+tags: ["obsidian"]
 
---- 
+---
+
 
 This post provides an overview of shortcuts which I use most of the time. Anyways, this is more of an heads up for me to spare me some time instead of searching the same stuff over and over again. 
 

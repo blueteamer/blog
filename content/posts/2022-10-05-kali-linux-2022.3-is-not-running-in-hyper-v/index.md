@@ -1,10 +1,15 @@
 ---
-title: "Kali Linux 2022.3 Is Not Running in Hyper V"
-date: 2022-10-05T12:00:00+01:00
+title: "Kali Linux 2022.3 Is Not Running in Hyper V" 
+date: "2022-10-05"
+description: "Mitigate a known problem when installing kali linux 2022.3 in Hyper-v." 
+featured: false 
 draft: false 
-tags: 
-- Kali Linux
-- Lab
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["unrelated stuff"]
+tags: ["linux", "lab"]
+
 ---
 
 I was re-building my lab environment when I realized that the installation of Kali Linux 2022.3 didn’t work as expected.

@@ -1,10 +1,15 @@
 ---
-title: "Installing Posh-Git"
-date: 2023-05-10T11:21:43+02:00
-tags: 
-    - Git
-    - PowerShell 
-draft: true
+title: "Installing Posh-Git" 
+date: "2023-05-10"
+description: "Learn how to implement posh-git in your daily console." 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["unrelated stuff"]
+tags: ["posh-git", "customization"]
+
 ---
 
 If you are heavily using powershell and git, you might also want to have a look at **posh-git**. 

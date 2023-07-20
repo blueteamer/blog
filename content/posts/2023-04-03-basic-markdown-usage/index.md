@@ -1,12 +1,16 @@
 ---
-title: 'Basic markdown usage'
-date: 2023-04-03
-image: 'cyber_01.jpg'
-draft: false
-tags: 
-- Markdown
-- Note to myself
---- 
+title: "Basic markdown usage" 
+date: "2023-04-03"
+description: "Mitigate a known problem when installing kali linux 2022.3 in Hyper-v." 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["note taking"]
+tags: ["hugo", "github"]
+
+---
 
 In this post I gathered the most common Markdown formattings - at least these are the most common for me. 
 

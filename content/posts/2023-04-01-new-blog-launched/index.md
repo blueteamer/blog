@@ -1,12 +1,16 @@
 ---
-title: 'Goodbye Wordpress, hello Github Pages & Hugo'
-date: 2023-04-02
-image: ''
-draft: false
-tags: 
-- Hugo
-- Github 
---- 
+title: "Goodbye Wordpress, hello Github Pages & Hugo" 
+date: "2023-04-02"
+description: "Mitigate a known problem when installing kali linux 2022.3 in Hyper-v." 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["unrelated stuff"]
+tags: ["hugo", "github"]
+
+---
 
 For several years I have been using Wordpress for my blog. This year I wanted to get rid of it and try something new: Github with Hugo. 
 

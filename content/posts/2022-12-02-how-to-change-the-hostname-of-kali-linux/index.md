@@ -1,10 +1,15 @@
 ---
-title: "How to Change the Hostname of Kali Linux"
-date: 2022-12-02T00:00:00+01:00
-draft: false
-tags: 
-- Kali Linux
-- Linux 
+title: "How to Change the Hostname of Kali Linux" 
+date: "2022-12-02"
+description: "Mitigate a known problem when installing kali linux 2022.3 in Hyper-v." 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["unrelated stuff"]
+tags: ["linux", "lab"]
+
 ---
 
 Changing the device hostname under Kali Linux is pretty straightforward. Read here how to do that. 

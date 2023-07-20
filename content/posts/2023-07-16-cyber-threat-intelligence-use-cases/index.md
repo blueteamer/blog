@@ -1,11 +1,18 @@
 ---
-title: "Cyber Threat Intelligence Use Cases"
-date: 2023-07-16T01:44:37+02:00
-draft: false
-tags:     
-    - cyber threat intel
-    - sentinel
+title: "Cyber Threat Intelligence Use Cases" 
+date: "2023-07-16"
+description: "Common use cases for implementing Threat Intelligence feeds. " 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["security operations"]
+tags: ["threat-intel", "sentinel"]
+
 ---
+
+
 
 Let's have a brief look at cyber threat intelligence and some common use cases. 
 <!--more-->

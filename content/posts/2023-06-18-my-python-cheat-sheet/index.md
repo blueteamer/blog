@@ -1,10 +1,15 @@
 ---
-title: "My Python Cheat Sheet"
-date: 2023-06-18T08:13:05+02:00
-draft: false
-tags: 
-- learning
-- python
+title: "My Python Cheat Sheet" 
+date: "2023-06-18"
+description: "Brief overview of the Python scripting language. " 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["unrelated stuff"]
+tags: ["python", "overview"]
+
 ---
 
 This is a brief overview and some notes of my Python learning progress. 

@@ -1,11 +1,15 @@
 ---
-title: "My Hugo blogging workflow"
-date: 2023-06-18T06:40:57+02:00
-draft: false
-tags: 
-- hugo 
-- howto
-- blog 
+title: "My Hugo blogging workflow" 
+date: "2023-06-18"
+description: "Follow this workflow to create and publish new blog posts. " 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["note-taking"]
+tags: ["hugo", "blog"]
+
 ---
 
 I cannot remember anything. Therefore a brief overview of the blogging workflow with hugo. 

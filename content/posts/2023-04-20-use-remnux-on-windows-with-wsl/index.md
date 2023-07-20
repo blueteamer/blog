@@ -1,10 +1,15 @@
 ---
-title: "Use Remnux on Windows With Wsl"
-date: 2023-04-19
-draft: false
-tags: 
-- REMnux
-- Malware Analysis
+title: "Use Remnux on Windows With Wsl" 
+date: "2023-04-19"
+description: "Guide on how to set up REMnux on Windows" 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["security operations"]
+tags: ["remnux", "malware analysis"]
+
 ---
 
 In case you frequently need to investigate suspicious files or you need more context about such files, you should take a look at REMnux[^fn1]. It is a linux distribution specifically designed for malware analysis and digital forensics. 
