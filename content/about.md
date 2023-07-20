@@ -1,5 +1,5 @@
 ---
-title: "Who are you" 
+title: "Who are you?" 
 date: "2023-06-18"
 description: "Who are you?" 
 featured: false 
@@ -11,7 +11,6 @@ usePageBundles: true
 ---
 
 
-# Who are you? 
 Well, I have no fecking idea who you are. But I can tell you a little bit about me. 
 I'm the creator of **noizy.cloud**. That's it. 
 
