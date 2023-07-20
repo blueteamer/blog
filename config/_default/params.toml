@@ -111,7 +111,7 @@ disclaimerText = "The opinions expressed on this site are my own personal opinio
 numberOfRecentPosts = 5
 
 # Maximum number of featured posts. (default: 8)
-# numberOfFeaturedPosts = 8
+# numberOfFeaturedPosts = 3
 
 # Pin featured posts in list.
 # pinFeatured = true

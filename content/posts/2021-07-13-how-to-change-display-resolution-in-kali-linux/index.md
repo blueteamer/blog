@@ -1,10 +1,21 @@
 ---
 title: "How to change display resolution in Kali Linux"
 date: "2021-07-13"
-tags: 
-  - Kali Linux
-  - Linux
+description: "Read how to change the display resolution for kali linux. " 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories:
+  - "unrelated stuff"
+tags:
+  - linux 
+  - troubleshooting
+
 ---
+
+
 
 When you install Kali Linux as a Hyper-V VM the default display resolution is 1024x786. This is too small to work on. 
 I found some good info on how to do change the display resolution for Kali on YouTube[^fn1] and decided to summarize the steps here for your convenience. 

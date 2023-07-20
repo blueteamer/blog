@@ -3,7 +3,7 @@ title: "Change desktop environment for Kali Linux" # Title of the blog post.
 date: 2021-03-25 # Date of post creation.
 description: "A brief overview on how to change the desktop environment for kali linux." 
 # Description used for search engine.
-featured: true # Sets if post is a featured post, making appear on the home page side bar.
+featured: false # Sets if post is a featured post, making appear on the home page side bar.
 draft: false 
 toc: true # only first level headers 
 # menu: main

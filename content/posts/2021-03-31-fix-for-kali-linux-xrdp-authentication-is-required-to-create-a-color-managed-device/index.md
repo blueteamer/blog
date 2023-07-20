@@ -1,10 +1,18 @@
 ---
 title: "xRDP - Authentication is required to create a color managed device"
 date: "2021-03-31"
-tags: 
-  - Kali Linux
-  - Linux 
-  - Troubleshooting
+description: "Mitigation of a common error in Debian based regarding xRDP - Authentication." 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories:
+  - "unrelated stuff"
+tags:
+  - linux 
+  - troubleshooting
+
 ---
 
 Many Debian based linux distro are using PolKit to enfore specific policies. Especially while working within a RDP session, this can become a major pain in the ass because of re-occurring pop-ups asking for credentials. This makes it almost impossible to do any work. 

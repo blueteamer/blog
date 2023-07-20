@@ -5,6 +5,19 @@ tags:
   - Kali Linux
   - OnionShare 
 ---
+---
+title: "How to change display resolution in Kali Linux"
+date: "2021-07-13"
+description: "Read how to change the display resolution for kali linux. " 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories: ["unrelated stuff"]
+tags: ["linux", "onionshare"]
+
+---
 
 OnionShare is a file sharing solution with a heavy focus on privacy. You might have heard of it in combination with news articles related to whistleblower and dataleaks. 
 
