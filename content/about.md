@@ -1,10 +1,15 @@
 ---
-title = "About"
-description = "What is this all about?"
-date = "1982-02-28"
-author = "The other me"
-menu = "main"
+title: "Who are you" 
+date: "2023-06-18"
+description: "Who are you?" 
+featured: false 
+draft: false 
+toc: true 
+menu: main
+usePageBundles: true 
+
 ---
+
 
 # Who are you? 
 Well, I have no fecking idea who you are. But I can tell you a little bit about me. 
