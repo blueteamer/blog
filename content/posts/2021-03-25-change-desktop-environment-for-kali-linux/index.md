@@ -16,7 +16,7 @@ thumbnail: "thumb-locked-keyboard.jpg" # Sets thumbnail image appearing inside c
 # codeLineNumbers: false # Override global value for showing of line numbers within code block.
 # figurePositionShow: true # Override global value for showing the figure label.
 categories:
-  - unrelated stuff
+  - "unrelated stuff"
 tags:
   - linux 
   - kali 
@@ -24,6 +24,7 @@ tags:
 ---
 
 Linux is highly customizable. This is also true for selecting different desktop environments. In this post we will discover how to change a desktop environment on Kali Linux. 
+
 
 <!--more-->
 
