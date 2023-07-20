@@ -1,10 +1,17 @@
 ---
 title: "Configure RDP access for Kali Linux"
 date: "2021-03-29"
-tags: 
-  - Kali Linux
-  - Linux
-  - Note to myself
+description: "Steps required to set up RDP access for kali linux." 
+featured: false 
+draft: false 
+toc: true 
+# menu: main
+usePageBundles: true 
+categories:
+  - "unrelated stuff"
+tags:
+  - linux 
+
 ---
 
 
