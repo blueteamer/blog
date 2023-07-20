@@ -4,7 +4,7 @@ date: "2023-06-18"
 description: "Who are you?" 
 featured: false 
 draft: false 
-toc: true 
+toc: false 
 menu: main
 usePageBundles: true 
 
