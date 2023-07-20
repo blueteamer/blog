@@ -40,13 +40,13 @@ So let's start.
 Log into your Kali Linux and start a terminal. We will then update the install package directory and install the environment.
 
 #### KDE
-```
+```bash
 sudo apt update 
 sudo apt install kali-desktop-kde 
 ```
 
 #### GNOME 
-```
+```bash
 sudo apt update
 sudo apt install kali-desktop-gnome
 ```
@@ -59,7 +59,7 @@ Once again some installation magic will fight dragons in the background.
 
 As soon as you have the regular prompt in the terminal which indicates that the install process has been finished, type
 
-```
+```bash
 reboot
 ```
 
