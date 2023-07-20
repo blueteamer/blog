@@ -1,11 +1,4 @@
 ---
-title: "Installing OnionShare on Kali Linux"
-date: "2021-09-22"
-tags: 
-  - Kali Linux
-  - OnionShare 
----
----
 title: "How to change display resolution in Kali Linux"
 date: "2021-07-13"
 description: "Read how to change the display resolution for kali linux. " 
