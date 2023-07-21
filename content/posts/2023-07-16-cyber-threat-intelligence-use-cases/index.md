@@ -14,10 +14,11 @@ tags: ["threat-intel", "sentinel"]
 
 
 
-Let's have a brief look at cyber threat intelligence and some common use cases. 
+Introducing some common use-cases for implementing Threat Intelligence.  
+
 <!--more-->
 
-## Summary  
+## Key take-aways  
 - CTI is the process of collecting, analysing and sharing info to face threats 
 - Needs to be implemented as a process 
 - Take a Use-case-centric approach 
