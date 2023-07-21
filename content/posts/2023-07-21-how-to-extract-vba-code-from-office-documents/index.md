@@ -17,8 +17,6 @@ tags:
   - malware-analysis
   - office-documents
   - threat-intelligence 
-series: 
-    - something
 
 ---
 
@@ -51,7 +49,7 @@ oleid sample.doc
 Output: 
 
 ```
-homer@SacrificeMyAss:~/redzone_malwaresample/_sample$ oleid sample.doc
+analyst@scapegoat:~/malware/samples/case017$ oleid sample.doc
 XLMMacroDeobfuscator: pywin32 is not installed (only is required if you want to use MS Excel)
 oleid 0.60.1 - http://decalage.info/oletools
 THIS IS WORK IN PROGRESS - Check updates regularly!
@@ -100,7 +98,7 @@ So let's do that.
 ### olevba 
 olevba has different switches to use. Try **- h** to get a full list. 
 
-First we are going to start an overall analysis with 
+Next, we're going with a basic analysis of any code inside of the doc:  
 
 ```
 olevba -a sample.doc
@@ -109,7 +107,7 @@ olevba -a sample.doc
 Output: 
 
 ```
-homer@SacrificeMyAss:~/redzone_malwaresample/_sample$ olevba -a sample.doc
+analyst@scapegoat:~/malware/samples/case017$ olevba -a sample.doc
 XLMMacroDeobfuscator: pywin32 is not installed (only is required if you want to use MS Excel)
 olevba 0.60.1 on Python 3.8.10 - http://decalage.info/python/oletools
 ===============================================================================
@@ -148,7 +146,7 @@ olevba -c sample.doc >> macro.txt
 Output: 
 *(The statement above will redirect the output shown below into the file "macro.txt" for further investigations.)* 
 ```
-homer@SacrificeMyAss:~/redzone_malwaresample/_sample$ olevba -c sample.doc
+analyst@scapegoat:~/malware/samples/case017$ olevba -c sample.doc
 XLMMacroDeobfuscator: pywin32 is not installed (only is required if you want to use MS Excel)
 olevba 0.60.1 on Python 3.8.10 - http://decalage.info/python/oletools
 ===============================================================================
