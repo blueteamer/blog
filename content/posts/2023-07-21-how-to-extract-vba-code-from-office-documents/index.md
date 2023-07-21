@@ -28,18 +28,18 @@ Learn how to extract VBA code from a malicious Microsoft Office document.
 
 *** 
 
-# Introduction 
+## Introduction 
 In some cases it is advisable to check what's inside of an document before opening it. For our purpose we are using tools provided by REMnux to exactly do that. In malware analysis, this is called **static analysis**. 
 
-# Preparations 
+## Preparations 
 REMnux is a collection of tools which can be installed on a Ubuntu instance. Make sure to use a 2020-* version of Ubuntu due to compatibility issues. We are using the tools in a Ubuntu installation placed in the Windows Subsystem for Linux (WSL). 
 
 **Assumption:** Let's assume we have a malicious Word document named "sample.docx". The Word document contains a malicious VBA macro. 
 
-# Tools 
+## Tools 
 We are going to use different tools for the extraction of the VBA code provided by REMnux. Most of the tools are written in Python. 
 
-## oleid 
+### oleid 
 oleid will give you a brief and high-level analysis of the documents nature. It's awesome to get a first indication regarding the reputation of the document. 
 
 Statement: 
@@ -97,7 +97,7 @@ In the output we can see that there are - at least - suspicious VBA macros. In t
 
 So let's do that. 
 
-## olevba 
+### olevba 
 olevba has different switches to use. Try **- h** to get a full list. 
 
 First we are going to start an overall analysis with 
@@ -196,7 +196,7 @@ eRXHBaNz = 111
 
 The output can now be analyzed in Visual Studio Code. 
 
-# Conclusion 
+## Conclusion 
 As you can see the tools available are pretty powerful and can lead to a quick verdict. Or at least to some starting points for further investigations. 
 
 
