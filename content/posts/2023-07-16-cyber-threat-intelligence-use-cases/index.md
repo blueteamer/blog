@@ -8,7 +8,7 @@ toc: true
 # menu: main
 usePageBundles: true 
 categories: ["security operations"]
-tags: ["threat-intel", "sentinel"]
+tags: ["threat-intelligence", "sentinel"]
 
 ---
 
