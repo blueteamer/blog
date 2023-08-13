@@ -3,6 +3,16 @@
   url = "https://noizy.cloud/"
   weight = -110
 
+[[main]]
+  name = "Who are you?"
+  url = "/about"
+  weight = -109
+
+[[main]]
+  name = "Security Operations"
+  url = "/categories/security-operations/"
+  weight = -108
+
 # [[main]]
 #   name = "Archives"
 #   url = "archives/"

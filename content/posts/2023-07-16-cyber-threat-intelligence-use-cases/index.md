@@ -16,6 +16,8 @@ tags: ["threat-intelligence", "sentinel"]
 
 Introducing some common use-cases for implementing Threat Intelligence.  
 
+***
+
 <!--more-->
 
 ## Key take-aways  

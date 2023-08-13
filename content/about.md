@@ -5,7 +5,6 @@ description: "Who are you?"
 featured: false 
 draft: false 
 toc: false 
-menu: main
 usePageBundles: true 
 
 ---
