@@ -41,7 +41,7 @@ paginate = 10
   contentTypeName = "posts"
 
   [params.header]
-    logo = "logo.webp"
+    logo = "static/icons/logo.png"
 
   [params.footer]
     since = 2010
