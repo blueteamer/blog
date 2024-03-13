@@ -1,12 +1,12 @@
 ---
 draft: false
 toc: true
-title: "A brief introduction to Cyber Threat Intelligence"
-description: ""
-date: 2024-03-13 T11:48:22+01:00
+title: 'Cyber Threat Intelligence'
+description: 'A brief introduction to the world of CTI'
+date: 2024-03-13T11:48:22+01:00
 usePageBundles: true
-categories: ["article"] 
-tags: ["cyber threat intelligence", "cti", "introductions"] 
+categories: ['article'] 
+tags: ['cyber threat intelligence', 'cti', 'introductions'] 
 ---
  
  
