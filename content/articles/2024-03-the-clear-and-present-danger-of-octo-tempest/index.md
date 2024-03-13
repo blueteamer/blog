@@ -49,7 +49,7 @@ The threat group was observed in quickly reacting to defenders actions in terms 
 
 Mapping their operations onto the MITRE ATT&CK framework reveals a comprehensive attack chain:
 
-- Reconnaissance: Octo Tempest demonstrates an intimate knowledge of targeted organizations, IR adn administration processes, leveraging illicit data brokers[^fn1] [^fn2] and previous breaches for intelligence gathering.
+- Reconnaissance: Octo Tempest demonstrates an intimate knowledge of targeted organizations, IR adn administration processes, leveraging illicit data brokers and previous breaches[^fn1] [^fn2] for intelligence gathering.
 - Initial Access: They employ smishing and helpdesk social engineering to gain initial entry, often bypassing multi-factor authentication (MFA) through convincing tactics.
 - Persistence: The group maintains access through a plethora of remote monitoring and management tools, ensuring a backdoor into the environment.
 - Defense Evasion: Octo Tempest adeptly evades security controls, disabling antivirus, and firewalls, and using anonymizing services to obscure their activities.
