@@ -1,6 +1,6 @@
 ---
 draft: false
-toc: true
+toc: false
 title: 'Cyber Threat Intelligence'
 description: 'A brief introduction to the world of CTI'
 date: 2024-03-13
