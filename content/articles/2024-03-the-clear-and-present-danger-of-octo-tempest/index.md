@@ -1,7 +1,7 @@
 ---
 draft: false
 toc: false
-title: 'The clear and present danger of Octo Tempest'
+title: 'The Clear and Present Danger of Octo Tempest'
 description: 'This article will cover an overview and common TTPs of the APT group Octo Tempest. '
 date: 2024-03-13
 usePageBundles: true
