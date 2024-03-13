@@ -49,7 +49,7 @@ The threat group was observed in quickly reacting to defenders actions in terms 
 
 Mapping their operations onto the MITRE ATT&CK framework reveals a comprehensive attack chain:
 
-- Reconnaissance: Octo Tempest demonstrates an intimate knowledge of targeted organizations, IR adn administration processes, leveraging illicit data brokers[^1][^2] and previous breaches for intelligence gathering.
+- Reconnaissance: Octo Tempest demonstrates an intimate knowledge of targeted organizations, IR adn administration processes, leveraging illicit data brokers[^fn1][^fn2] and previous breaches for intelligence gathering.
 - Initial Access: They employ smishing and helpdesk social engineering to gain initial entry, often bypassing multi-factor authentication (MFA) through convincing tactics.
 - Persistence: The group maintains access through a plethora of remote monitoring and management tools, ensuring a backdoor into the environment.
 - Defense Evasion: Octo Tempest adeptly evades security controls, disabling antivirus, and firewalls, and using anonymizing services to obscure their activities.
@@ -60,8 +60,8 @@ Impact and Mitigations
 
 The impact of Octo Tempest's attacks ranges from data theft to operational disruption and encryption of critical data. To mitigate their threat, organizations are advised to implement multi-factor authentication (MFA), comprehensive user awareness training, and strict access controls. Leveraging modern security architectures and solutions, such as Next-Generation Firewalls (NGFW) and eXtended Detection and Response (XDR), can further bolster defenses against such sophisticated adversaries.
 
-[^1] [United Health data breach in 2023](https://eu.usatoday.com/story/news/health/2024/03/05/unitedhealth-cyberattack-disrupts-records-billing-security/72849687007/) 
-[^2] [Two massive healthcare data breaches just exposed more than half of France's population](https://www.itpro.com/security/data-breaches/two-massive-healthcare-data-breaches-just-exposed-more-than-half-of-frances-population)
+[^fn1] [United Health data breach in 2023](https://eu.usatoday.com/story/news/health/2024/03/05/unitedhealth-cyberattack-disrupts-records-billing-security/72849687007/) 
+[^fn2] [Two massive healthcare data breaches just exposed more than half of France's population](https://www.itpro.com/security/data-breaches/two-massive-healthcare-data-breaches-just-exposed-more-than-half-of-frances-population)
 
 
 
