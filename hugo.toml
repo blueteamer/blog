@@ -47,7 +47,7 @@ theme = "tailwind"
   [[menu.main]]
     identifier = "articles"
     name = "Articles"
-    pageRef = "/article"
+    pageRef = "/articles"
     weight = 0
 
   [[menu.main]]
