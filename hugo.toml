@@ -42,13 +42,11 @@ paginate = 10
     threshold = 0.3 # https://www.fusejs.io/api/options.html#threshold
 
   [params.header]
-    logo = "/icons/logo.png"
+    logo = "/icons/favicon-32x32.png"
 
   [params.footer]
     since = 2010
     poweredby = true
-
-  
 
 [menu]
   [[menu.main]]
@@ -58,9 +56,9 @@ paginate = 10
     weight = 0
 
   [[menu.main]]
-    identifier = "2nd-brain"
-    name = "2nd Brain"
-    pageRef = "/2nd-brain"
+    identifier = "archive"
+    name = "Archive"
+    pageRef = "/archive"
     weight = 10
 
 [taxonomies]
