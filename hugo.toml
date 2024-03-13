@@ -1,11 +1,7 @@
 baseURL = 'https://noizy.cloud/'
 title = 'Protecting all the cyberz!'
-
-theme = "tailwind" 
-
 author = "JohnnyThreeEcho" 
 copyright = "JohnnyThreeEcho"
-
 languageCode = 'en'
 defaultContentLanguage = "en"
 hasCJKLanguage = false
@@ -13,11 +9,39 @@ enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
-
 enableRobotsTXT = true
-
 enableEmoji = true
-paginate = 10 
+
+theme = "tailwind" 
+
+[markup]
+  [markup.highlight]
+    # lineNos = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.cjk]
+        enable = true
+        eastAsianLineBreaks = true
+        escapedSpace = true
+
+
+
+[params]  
+  keywords = "threat intelligence, cti, cyber, security"
+  subtitle = "Cyber Threat Intelligence" 
+  contentTypeName = "posts"  
+  toc = false
+  showReadingTime = true
+
+  [params.header]
+    logo = "/icons/favicon.jpg"
+
+  [params.footer]
+    since = 2010
+    poweredby = true
 
 [menu]
   [[menu.main]]
@@ -32,48 +56,11 @@ paginate = 10
     pageRef = "/archive"
     weight = 10
 
-[params]  
-  # SEO keywords and description for your site.
-  keywords = "threat intelligence, cti, cyber, security"
-  subtitle = "Cyber Threat Intelligence"
-
-  # dir name of your blog content (default is `content/posts`).
-  # the list of set content will show up on your index page (baseurl).
-  contentTypeName = "posts"
-  
-  # Show table of contents at the top of your posts (defaults to false)
-  # Alternatively, add this param to post front matter for specific posts
-  toc = false
-  showReadingTime = true
-
-  [params.search]
-    summaryInclude = 180 # show only part of content in search result.
-    minMatchCharLength = 2 # https://www.fusejs.io/api/options.html#minmatchcharlength
-    threshold = 0.3 # https://www.fusejs.io/api/options.html#threshold
-
-  [params.header]
-    logo = "/icons/favicon.jpg"
-
-  [params.footer]
-    since = 2010
-    poweredby = true
-
 [taxonomies]
   category = "categories"
   tag = "tags"
   series = "series"
 
-[markup]
-  [markup.highlight]
-    # lineNos = true
-    noClasses = false
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-    [markup.goldmark.extensions]
-      [markup.goldmark.extensions.cjk]
-        enable = true
-        eastAsianLineBreaks = true
-        escapedSpace = true
+
 
 # this one is the source of truth 
