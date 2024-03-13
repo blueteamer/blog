@@ -42,7 +42,7 @@ paginate = 10
     threshold = 0.3 # https://www.fusejs.io/api/options.html#threshold
 
   [params.header]
-    logo = "/icons/favicon-32x32.png"
+    logo = "/icons/favicon.jpg"
 
   [params.footer]
     since = 2010
