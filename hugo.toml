@@ -19,8 +19,18 @@ enableRobotsTXT = true
 enableEmoji = true
 paginate = 10 
 
+[menu]
+  [[menu.main]]
+    identifier = "post"
+    name = "Post"
+    pageRef = "/posts"
+    weight = 0
 
-
+  [[menu.main]]
+    identifier = "archive"
+    name = "Archive"
+    pageRef = "/archive"
+    weight = 10
 
 [params]  
   # SEO keywords and description for your site.
@@ -48,35 +58,22 @@ paginate = 10
     since = 2010
     poweredby = true
 
-[menu]
-  [[menu.main]]
-    identifier = "post"
-    name = "Post"
-    pageRef = "/posts"
-    weight = 0
-
-  [[menu.main]]
-    identifier = "archive"
-    name = "Archive"
-    pageRef = "/archive"
-    weight = 10
-
 [taxonomies]
-category = "categories"
-tag = "tags"
-series = "series"
+  category = "categories"
+  tag = "tags"
+  series = "series"
 
 [markup]
-[markup.highlight]
-  # lineNos = true
-  noClasses = false
-[markup.goldmark]
-  [markup.goldmark.renderer]
-    unsafe = true
-  [markup.goldmark.extensions]
-    [markup.goldmark.extensions.cjk]
-      enable = true
-      eastAsianLineBreaks = true
-      escapedSpace = true
+  [markup.highlight]
+    # lineNos = true
+    noClasses = false
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.cjk]
+        enable = true
+        eastAsianLineBreaks = true
+        escapedSpace = true
 
 # this one is the source of truth 
