@@ -1,29 +1,22 @@
 ---
-title: "How to extract VBA code from malicious Office documents" 
-date: 2023-07-21T15:25:21+02:00 
-description: "Learn how to extract VBA code from a malicious Microsoft Office document." 
-featured: false 
 draft: false 
 toc: false 
-# menu: main
+title: "How to extract VBA code from malicious Office documents" 
+description: "Learn how to extract VBA code from a malicious Microsoft Office document." 
+date: 2023-07-21
 usePageBundles: true 
-# featureImage: "/images/path/file.jpg" # Sets featured image on blog post.
-# featureImageAlt: 'Description of image' # Alternative text for featured image.
-# featureImageCap: 'This is the featured image.' # Caption (optional).
-# thumbnail: "/images/path/thumbnail.png" # Sets thumbnail image appearing inside card on homepage.
 categories:
-  - security-operations
+  - brain dump
 tags:
-  - malware-analysis
-  - office-documents
-  - threat-intelligence 
+  - malware analysis
+  - office documents
+  - cyber threat intelligence 
 
 ---
 
 Learn how to extract VBA code from a malicious Microsoft Office document. 
 
 <!--more-->
-
 *** 
 
 ## Introduction 

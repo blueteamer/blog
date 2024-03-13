@@ -1,20 +1,19 @@
 ---
-title: "My Hugo blogging workflow" 
-date: "2023-06-18"
-description: "Follow this workflow to create and publish new blog posts. " 
-featured: false 
 draft: false 
 toc: true 
-# menu: main
+title: "My Hugo blogging workflow" 
+description: "Follow this workflow to create and publish new blog posts. " 
+date: 2023-06-18
 usePageBundles: true 
-categories: ["note-taking"]
+categories: ["brain dump"]
 tags: ["hugo", "blog"]
 
 ---
 
-I cannot remember anything. Therefore a brief overview of the blogging workflow with hugo. 
+I cannot remember anything. Therefore a brief overview of my blogging workflow with hugo. 
 
 <!--more-->
+***
 
 ## Update the repo 
 Make sure you are working with the latest changes in your repo. 

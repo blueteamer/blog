@@ -1,15 +1,12 @@
 ---
-title: "Use Remnux on Windows With Wsl" 
-date: "2023-04-19"
-description: "Guide on how to set up REMnux on Windows" 
-featured: false 
 draft: false 
 toc: true 
-# menu: main
+title: "Use Remnux on Windows With Wsl" 
+description: "Guide on how to set up REMnux on Windows" 
+date: 2023-04-19
 usePageBundles: true 
-categories: ["security operations"]
+categories: ["brain dump"]
 tags: ["remnux", "malware analysis"]
-
 ---
 
 In case you frequently need to investigate suspicious files or you need more context about such files, you should take a look at REMnux[^fn1]. It is a linux distribution specifically designed for malware analysis and digital forensics. 
@@ -18,6 +15,8 @@ We are going to have a look at how REMnux can be installed on a Windows 10 devic
 
 [^fn1]: You can find more information about REMnux and how to use it on [remnux.org](https://remnux.org) 
 
+<!-- more-->
+***
 
 ## Prepare Windows for REMnux installation  
 Since Window 10 we have the WSL feature available. The Windows Subsystem for Linux (WSL) is a virtualization solution to let Windows host Linux distributions. This offers you a nice amount of additional tools to the tip of your fingeres while still sitting in a Windows environment.

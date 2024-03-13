@@ -1,20 +1,18 @@
 ---
-title: "Using NAT for internet connection on Hyper-V host" 
-date: "2022-09-27"
-description: "Learn how to configure your network settings to provide internet access via a Network Allocated Table routing (nat). " 
-featured: false 
 draft: false 
 toc: true 
-# menu: main
+title: "Using NAT for internet connection on Hyper-V host"
+description: "Learn how to configure your network settings to provide internet access via a Network Allocated Table routing (nat). " 
+date: 2022-09-27
 usePageBundles: true 
-categories: ["unrelated stuff"]
+categories: ["brain dump"]
 tags: ["hyper-v", "network"]
-
 ---
 
 While I've been setting up a lab environment on a Hyper-V host, I was told I cannot use virtual external switches for my VMs. The alternative has to be NAT. So, let's see how this is done.
 
 <!--more-->
+***
 
 ## Introduction
 
@@ -81,7 +79,7 @@ New-NetIPAddress -IPAddress 10.0.0.1 -PrefixLength 24 -InterfaceIndex 7
 New-NetNat -Name 'DefaultVmGatewayOutside' -InternalIPInterfaceAddressPrefix 10.0.0.0/24 
 ```
 
-### Step on virtual machine
+### Steps on virtual machine
 
 I'm not going to explain how to create a new virtual machine in Hyper-V. Pretty sure you already know that. If not, check out the Microsoft Learn Article[^fn1].
 
