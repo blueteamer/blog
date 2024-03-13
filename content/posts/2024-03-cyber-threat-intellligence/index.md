@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: "A brief introduction to Cyber Threat Intelligence"
 description: ""
 date: 2024-03-13 T11:48:22+01:00
