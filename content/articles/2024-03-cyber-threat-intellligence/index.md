@@ -1,9 +1,9 @@
 ---
 draft: false
 toc: false
-title: 'Cyber Threat Intelligence'
+title: 'Getting started with Cyber Threat Intelligence'
 description: 'A brief introduction to the world of CTI'
-date: 2024-03-13
+date: 2024-01-29
 usePageBundles: true
 categories: ['article'] 
 tags: ['cyber threat intelligence', 'cti', 'introductions'] 
