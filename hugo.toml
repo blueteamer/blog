@@ -32,7 +32,7 @@ theme = "tailwind"
 [params]  
   keywords = "threat intelligence, cti, cyber, security"
   subtitle = "Cyber Threat Intelligence" 
-  contentTypeName = "posts"  
+  contentTypeName = "articles"  
   toc = false
   showReadingTime = true
 
@@ -45,9 +45,9 @@ theme = "tailwind"
 
 [menu]
   [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    pageRef = "/posts"
+    identifier = "articles"
+    name = "Articles"
+    pageRef = "/article"
     weight = 0
 
   [[menu.main]]
