@@ -47,7 +47,7 @@ theme = "tailwind"
   [[menu.main]]
     identifier = "post"
     name = "Post"
-    pageRef = "/posts"
+    pageRef = "/post"
     weight = 0
 
   [[menu.main]]
