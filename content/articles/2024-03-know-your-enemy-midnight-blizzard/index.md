@@ -41,7 +41,7 @@ Midnight Blizzard's TTPs encompass a wide array of methods aimed at infiltrating
 
 ## Known malware and vulnerabilities 
 
-Midnight Blizzard is known for using the following malware, tools and vulnerabilities to gain access to the victim's environment. 
+Midnight Blizzard is known for using the following malware, tools and vulnerabilities to gain access to the victim's environment. This list is by far not complete. 
 
 ### Malware
 - BoomBox - A malicious downloader
