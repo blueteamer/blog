@@ -106,6 +106,6 @@ In conclusion, understanding the tactics, techniques, and procedures of threat g
 - 92.99.114[.]231
 
 ## Sources 
-- [Octo Tempest crosses boundaries to facilitate extortion, encryption, and destruction](https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/)
-- [Octo Tempest Threat Actor Profile](https://thecyberwire.com/podcasts/microsoft-threat-intelligence/5/notes)
-- [Threat Group Assessment: Muddled Libra](https://unit42.paloaltonetworks.com/muddled-libra/)
+- [Octo Tempest crosses boundaries to facilitate extortion, encryption, and destruction [2024-03-13]](https://www.microsoft.com/en-us/security/blog/2023/10/25/octo-tempest-crosses-boundaries-to-facilitate-extortion-encryption-and-destruction/)
+- [Octo Tempest Threat Actor Profile [2024-03-13]](https://thecyberwire.com/podcasts/microsoft-threat-intelligence/5/notes)
+- [Threat Group Assessment: Muddled Libra [2024-03-13]](https://unit42.paloaltonetworks.com/muddled-libra/)
