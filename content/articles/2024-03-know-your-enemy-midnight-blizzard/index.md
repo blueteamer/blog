@@ -41,6 +41,8 @@ Midnight Blizzard's TTPs encompass a wide array of methods aimed at infiltrating
 
 ## Known malware and vulnerabilities 
 
+Midnight Blizzard is known for using the following malware, tools and vulnerabilities to gain access to the victim's environment. 
+
 ### Malware
 - BoomBox - A malicious downloader
 - EnvyScout - A Stage 1 malicious payload
@@ -50,7 +52,7 @@ Midnight Blizzard's TTPs encompass a wide array of methods aimed at infiltrating
 - Sibot - Malware used for persisting on a targeted system
 - NativeZone - A malicious loader used to load malicious content
 - VaporRage - Malicious downloaders dropped during initial access
-- CCleaner - 
+- CCleaner - Malicious payload disguised as 'legit' software 
 
 
 ### Vulnerabilities
