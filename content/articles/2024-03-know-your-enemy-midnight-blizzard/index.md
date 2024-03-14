@@ -71,7 +71,7 @@ To mitigate the risk posed by Midnight Blizzard and safeguard against their mali
 - Patch Management: Regularly update software and services to address known vulnerabilities and reduce the likelihood of exploitation by threat actors.
 - Network Segmentation: Segment networks to limit the lateral movement of threat actors within the network, thereby containing potential breaches and minimizing the impact of their activities.
 - Monitoring and Detection: Deploy advanced threat detection systems capable of identifying and responding to suspicious activities indicative of Midnight Blizzard's TTPs.
-- Conditional Access Policies: Restrict access to company resources by using tailored policies. 
+- Conditional Access Policies: Restrict access to company resources by using onboarded company devices only. 
 
 
 ## Sources
