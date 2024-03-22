@@ -1,18 +1,12 @@
 ---
-title: "xRDP - Authentication is required to create a color managed device"
-date: "2021-03-31"
-description: "Mitigation of a common error in Debian based regarding xRDP - Authentication." 
-featured: false 
 draft: false 
 toc: true 
-# menu: main
+title: "xRDP - Authentication is required to create a color managed device"
+description: "Mitigation of a common error in Debian based regarding xRDP - Authentication." 
+date: 2021-03-31
 usePageBundles: true 
-categories:
-  - "unrelated stuff"
-tags:
-  - linux 
-  - troubleshooting
-
+categories: ["brain dump"]
+tags: ["linux"]
 ---
 
 Many Debian based linux distro are using PolKit to enfore specific policies. Especially while working within a RDP session, this can become a major pain in the ass because of re-occurring pop-ups asking for credentials. This makes it almost impossible to do any work. 
@@ -42,12 +36,8 @@ sudo -i
 ### Check which version of pkaction (PolKit) is running.
 In the next step, we have to check the version of pkaction. This will tell us in which direction we need to go. 
 
-{{< mermaid >}}
-flowchart TD
-  A[pkaction --version] 
-  A --> |v0.106 and above?| C[*.conf]
-  A --> |v0.105 and below?| D[*.pkla]
-{{< /mermaid >}}
+If you have v0.106 and above, then go for the *.conf. 
+If you have v0.105 and below, then go for the *.pkla. 
 
 You can check the version in the terminal
 ```
