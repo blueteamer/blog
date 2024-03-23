@@ -3,7 +3,7 @@ draft: false
 toc: true 
 title: "How to change display resolution in Kali Linux"
 description: "Read how to change the display resolution for kali linux. "
-date: 2022-09-27
+date: 2021-07-13
 usePageBundles: true 
 categories: ["brain dump"]
 tags: ["linux"]
