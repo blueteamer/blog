@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 toc: false
 title: "New MFA-bypassing Phishing Kit targets Microsoft 365 and Gmail Accounts"
 description: ""
